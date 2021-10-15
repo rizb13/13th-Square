@@ -29,3 +29,27 @@ What requirements are considered part of the next phase, the work of other teams
 ●	Sql injection protection
 ●	Maybe online shopping cart; place for bulk purchases (maybe);
 
+INSTALLATION REQUIREMENTS:
+Install:
+Download Node.js version 10.13 or later @ https://nodejs.org/en/
+
+Verify node and npm installed correctly, open command prompt and enter:
+- `node -v`
+- `npm -v`
+
+If not working on a Windows machine and get a `node is not recognized as a ...`: 
+- Open the command prompt and type in:
+`SET PATH=C:\Program Files\Nodejs;%PATH%`
+ (Answer found @ https://stackoverflow.com/questions/23412938/node-is-not-recognized-as-an-internal-or-an-external-command-operable-program)
+
+Once working in command prompt, now check if Node.js works in IDE: (may have to restart IDE)
+- `node -v`
+- `npm -v`
+
+May need to download a `Remote WSL` extention in your IDE. It was automatic for me when clicked link @: https://code.visualstudio.com/docs/nodejs/nodejs-tutorial.  If not look up how to install extentions on IDE.
+
+THE FOLLOWING INSTRUCTIONS ARE ALSO @ https://nextjs.org/learn/basics/create-nextjs-app/setup
+
+To create a Next.js app, open your terminal, cd into the directory you’d like to create the app in, and run the following command:
+`npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter" `
+
