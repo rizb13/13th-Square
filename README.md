@@ -30,6 +30,7 @@ What requirements are considered part of the next phase, the work of other teams
 ●	Maybe online shopping cart; place for bulk purchases (maybe);
 
 INSTALLATION REQUIREMENTS:
+
 Install:
 Download Node.js version 10.13 or later @ https://nodejs.org/en/
 
